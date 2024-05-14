@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* list-style: none; */
+    
+    
+
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.home-left{
+    color: rgb(200, 147, 238);
+    height: 70vh;
+    width: 100%;
+    font-weight: bolder;
+    background-color: rgb(49, 48, 48);
+    width: 80vw;
+}
+
+.home-right{
+    width: 20vw;
+    background-color: rgb(49, 48, 48);
+    height: 70vh;
+    width: 50%;
+    
+    
+}
+.home-right img{
+    width: 384px;
+    height: 260px;
+    
+   
+}
+
+
+.heading p{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.text{
+    position: relative;
+    top: 70px;
+    left: 80px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 10px;
+}
+.text h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text h4{
+    margin-top: 14px;
+    font-style: normal;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text P{
+    margin-top: 25px;
+}
+.rating{
+    color: goldenrod;
+    
+}
+
+.stdns{
+    font-style:oblique;
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    color: rgb(200, 147, 238);;
+}
+.icons{
+
+}
+.bx-globe, .bxs-keyboard, .bx-badge-check{
+    font-size: 1.1rem;
+    
+}
+.bx-globe, .bxs-keyboard{
+    padding-left: 10px;
+}
+.right-inner{
+    margin-left: 10%;
+    margin-top: 20%;
+    height: 200vh;
+    width: 30vw;
+    border: 2px solid rgb(241, 174, 174);
+   background-color: #fff;
+   text-align: center;
+   
+
+}
+.price h1{
+   text-align: left;
+margin-left: 23px;
+font-weight: bolder;
+}
+.price{
+    margin-top: 0.5rem;
+    color:#000;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    border: 1px solid #000;
+}
+input{
+    font-size: 20px;
+    width: 330px;
+    height: 60px;
+    padding: 20px;
+    margin: 0.5rem;
+    background-color: rgb(209, 73, 247);
+    border: 0cap;
+    color: #fff;
+    font-weight: bold;
+
+}
+.btn1:hover{
+    background-color:rgb(212, 159, 226);
+    color: #000;
+}
+.btn2{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #bbb3b3;
+    
+}
+.btn2:hover{
+    background-color: rgb(235, 231, 231);
+}
+.price p{
+    font-size: 0.9rem;
+}
+.uses{
+    margin-left: 7%;
+    margin-top: 6%;
+    width: 53vw;
+    border: 2px solid rgb(247, 242, 242);
+   text-decoration: none;
+   
+}
+
+.uses h1{
+    margin-left: 7%;
+}
+ol{
+    margin-left: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 13px;
+
+    width: 600px;
+    height: 20vh;
+ 
+}
+.ol-1{
+    margin-top: 7%;
+   
+}
+.course{
+    margin-left: 7%;
+    margin-top: 6%;
+    width: 53vw;
+}
+.course-content{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+.sections a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(209, 73, 247);
+    padding-inline:  -200px;
+    
+}
+
+
+.duration{
+    float: right;
+    margin-right: 20px;
+    font-weight: 200;
+}
+summary{
+    width: 51.5vw;
+   border: 1px solid #bbb3b3;
+   height: 7vh;
+   padding-top: 12px;
+font-weight: bolder;
+background-color: rgb(252, 250, 250);
+padding-left: 20px;
+   
+}
+.border{
+    width: 53.05vw;
+    border: 1px solid #bbb3b3;
+    
+   
+}
+details{
+border: -0px solid #fff;
+gap: 0rem;
+border-collapse: collapse;
+
+}
+.s{
+    float: right;
+    margin-top: 5px;
+    color: #cccc;
+    margin-right: 20px;
+}
+.b{
+    margin-right:40px;
+}
+.b,.s,.a{
+    color: blue;
+}
+.bx{
+    padding: 10px;
+
+}
+
+.require,.desc{
+    margin-top: 6%;
+}
+.require li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.desc{
+    width: 53vw;
+}
+.desc p{
+    margin: 30px;
+    margin-left: 0%;
+}
+
+.course-det{
+    place-items: left;
+    text-align: left;
+    margin-left: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+
+.y{
+    padding-left: 60px;
+}
+.u {
+    color: skyblue;
+    border-bottom: 2px solid red;
+}
+
+
+
